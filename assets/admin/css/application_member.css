@@ -1,0 +1,16 @@
+.course-card-title{
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.course-view-modul-wrapper { display:table; }
+.course-view-modul-wrapper > div { display: table-cell; }
+
+.btn i {
+    vertical-align: middle;
+    font-size: 1.3rem;
+    margin-top: -1.2em;
+    margin-bottom: -1em;
+    margin-right: 0px !important;
+}

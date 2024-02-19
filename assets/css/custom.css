@@ -1,0 +1,33 @@
+.main_heading {
+	font-size: 4rem;
+	font-weight: 300;
+	line-height: 1.2;
+}
+.card-img, .card-img-bottom, .card-img-top {
+	height: 200px;
+}
+
+.contact-page-google-map {
+	position: relative;
+	display: block;
+	z-index: 2;
+	padding-bottom: 0px !important;
+}
+
+.contact-page-google-map__one {
+	position: relative;
+	display: block;
+	border: none;
+	height: 518px;
+	width: 100%;
+	max-width: 1595px;
+	margin: 0 auto;
+}
+
+.article-cover {
+	height: 463px !important;
+}
+
+.article-card-body-cascade {
+	margin-top: -5rem !important;
+}

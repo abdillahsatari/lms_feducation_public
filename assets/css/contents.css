@@ -1,0 +1,70 @@
+.intro-2 {
+	/* background: url(http://astronacciexam.com/images/home/bg-homepage.jpg)no-repeat center center; */
+	background-size: cover;
+}
+h6 {
+	line-height: 1.7;
+}
+.answers {
+	display: inline-block;
+}
+.answers label{
+	display: block;
+}
+.soal {
+	display: inline-block;
+}
+.soal label{
+	display: block;
+}
+.slide{
+	position: absolute;
+	z-index: -99;
+	opacity: 0;
+	display: none;
+	/*transition: opacity 0.5s;*/
+}
+.active-slide{
+	position: relative;
+	opacity: 1;
+	z-index: 1;
+	display: block;
+}
+/*.quiz-container{
+height: 400px;
+max-height: 700px;
+position: relative;
+}*/
+.smalltext{
+	padding-top: 3px;
+	font-size: 12px;
+}
+input[type="radio"]:not(:checked){visibility:hidden;}
+input[type="radio"]:checked{visibility:hidden;}
+label {
+	cursor: pointer;
+}
+.md-tabs
+{ margin-bottom:20px !important;}
+.md-tabs .nav-item.open .nav-link, .md-tabs .nav-link.active
+{background-color: #ee3343bf !important}
+.fade:not(.show) {
+	display: none;
+	opacity: 0;
+}
+.padding-sect-1{
+	padding: 135px 0 50px 0;
+}
+@media only screen and (min-width: 600px) {
+	.padding-sect-1{
+		padding: 150px 0 80px 0 !important;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.padding-sect-1{
+		padding: 200px 0 100px 0 !important;
+	}
+}
+#next, #previous, #submit{
+	background-color: #ee3343 !important;
+}
